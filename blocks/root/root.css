@@ -1,0 +1,7 @@
+.root {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1600px;
+    background-color: #2a2c2f;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
