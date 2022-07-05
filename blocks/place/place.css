@@ -1,0 +1,12 @@
+.place {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 90px;
+    display: grid;
+    grid-template:
+        "place__title place__artist"
+        "place__image place__description"
+        "place__button place__description";
+    gap: 48px 40px;
+    grid-template-columns: 1fr 1fr;
+}

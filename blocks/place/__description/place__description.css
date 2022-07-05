@@ -1,0 +1,5 @@
+.place__description {
+    grid-area: place__description;
+    display: flex;
+    flex-direction: column;
+}

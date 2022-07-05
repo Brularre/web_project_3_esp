@@ -8,69 +8,397 @@
     </head>
 
     <body class="root">
-        <div class="logo">
-            <svg
-                width="278"
-                height="78"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <g filter="url(#a)">
-                    <path
-                        d="M4.32 69h3.95v-4.318h2.187c3.316 0 5.54-1.953 5.54-5.085 0-3.097-2.167-5.142-5.398-5.142H4.32V69Zm3.95-7.386v-4.006H9.66c1.385 0 2.216.739 2.216 1.989 0 1.243-.83 2.017-2.216 2.017H8.27ZM17.445 69h3.95V64.2h1.363L25.315 69h4.29l-2.955-5.426c1.548-.746 2.471-2.16 2.471-4.176 0-3.097-2.166-4.943-5.397-4.943h-6.279V69Zm3.95-7.87v-3.522h1.391c1.385 0 2.216.54 2.216 1.79 0 1.243-.83 1.733-2.216 1.733h-1.392ZM34.583 69l.838-2.784h4.8L41.06 69h4.261l-4.8-14.545h-5.398L30.32 69h4.262Zm1.733-5.739 1.448-4.8h.114l1.449 4.8h-3.011ZM59.619 59.91c-.313-3.609-2.955-5.654-6.62-5.654-3.92 0-7.017 2.614-7.017 7.471 0 4.837 3.012 7.472 7.017 7.472 4.262 0 6.42-2.954 6.62-5.426l-4.006-.029c-.199 1.243-1.08 2.017-2.528 2.017-1.925 0-3.04-1.363-3.04-4.033 0-2.529 1.08-4.035 3.068-4.035 1.52 0 2.386.895 2.5 2.216h4.006ZM61.013 57.636h4.375V69h3.892V57.636h4.375v-3.181H61.013v3.181ZM79.09 54.455h-3.95V69h3.95V54.455ZM94.54 59.91c-.312-3.609-2.954-5.654-6.619-5.654-3.92 0-7.017 2.614-7.017 7.471 0 4.837 3.012 7.472 7.017 7.472 4.262 0 6.42-2.954 6.62-5.426l-4.006-.029c-.199 1.243-1.08 2.017-2.528 2.017-1.925 0-3.04-1.363-3.04-4.033 0-2.529 1.08-4.035 3.068-4.035 1.52 0 2.386.895 2.5 2.216h4.006ZM104.94 54.455v8.977c0 1.356-.973 2.33-2.33 2.33-1.356 0-2.329-.974-2.329-2.33v-8.977h-3.949v9.318c0 3.324 2.514 5.398 6.278 5.398 3.736 0 6.279-2.074 6.279-5.398v-9.318h-3.949ZM110.766 54.455V69h3.863v-8.466h.114l3.239 8.352h2.329l3.239-8.295h.113v8.41h3.864V54.454h-4.915l-3.38 8.238h-.171l-3.381-8.238h-4.914ZM137.161 69l.838-2.784h4.801l.838 2.784h4.262l-4.801-14.545h-5.398L132.9 69h4.261Zm1.733-5.739 1.449-4.8h.114l1.449 4.8h-3.012ZM149.301 69h3.949V64.2h1.363L157.17 69h4.29l-2.955-5.426c1.549-.746 2.472-2.16 2.472-4.176 0-3.097-2.166-4.943-5.398-4.943h-6.278V69Zm3.949-7.87v-3.522h1.392c1.385 0 2.216.54 2.216 1.79 0 1.243-.831 1.733-2.216 1.733h-1.392ZM162.262 57.636h4.375V69h3.892V57.636h4.375v-3.181h-12.642v3.181ZM189.821 59.256h3.991c-.305-2.92-2.954-5-6.392-5-3.92 0-7.102 2.699-7.102 7.5 0 4.602 2.884 7.443 7.131 7.443 3.807 0 6.534-2.33 6.534-6.307v-2.017h-6.449v2.813h2.642c-.035 1.264-.93 2.073-2.699 2.073-2.045 0-3.096-1.505-3.096-4.062 0-2.521 1.136-4.006 3.125-4.006 1.235 0 2.074.569 2.315 1.563ZM199.153 69l.838-2.784h4.802l.838 2.784h4.261l-4.801-14.545h-5.398L194.892 69h4.261Zm1.733-5.739 1.449-4.8h.114l1.449 4.8h-3.012ZM211.293 69h9.83v-3.182h-5.881V54.455h-3.949V69ZM222.719 69h9.829v-3.182h-5.88V54.455h-3.949V69ZM234.145 69h10.454v-3.182h-6.506v-2.5h5.995v-3.182h-5.995v-2.5h6.534v-3.181h-10.482V69ZM246.586 69h3.949V64.2h1.363L254.455 69h4.29l-2.955-5.426c1.549-.746 2.472-2.16 2.472-4.176 0-3.097-2.166-4.943-5.398-4.943h-6.278V69Zm3.949-7.87v-3.522h1.392c1.385 0 2.216.54 2.216 1.79 0 1.243-.831 1.733-2.216 1.733h-1.392ZM258.665 54.455l5.341 9.971V69h3.92v-4.574l5.341-9.971h-4.403l-2.841 5.909h-.114l-2.84-5.91h-4.404Z"
-                        fill="#fff"
-                    />
-                    <path
-                        d="M122 2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v28a2 2 0 0 1-2 2h-28a2 2 0 0 1-2-2V2Z"
-                        fill="#0278FE"
-                    />
-                    <path d="M154 6h-32v2h32V6Z" fill="#2A2C2F" />
-                    <path d="M135 6h-2v26h2V6Z" fill="#2A2C2F" />
-                </g>
-                <defs>
-                    <filter
-                        id="a"
-                        x="0"
-                        y="0"
-                        width="278"
-                        height="78"
-                        filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
-                    >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
-                        <feColorMatrix
-                            in="SourceAlpha"
-                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                            result="hardAlpha"
-                        />
-                        <feOffset dy="4" />
-                        <feGaussianBlur stdDeviation="2" />
-                        <feComposite in2="hardAlpha" operator="out" />
-                        <feColorMatrix
-                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-                        />
-                        <feBlend
-                            in2="BackgroundImageFix"
-                            result="effect1_dropShadow_16709_488"
-                        />
-                        <feBlend
-                            in="SourceGraphic"
-                            in2="effect1_dropShadow_16709_488"
-                            result="shape"
-                        />
-                    </filter>
-                </defs>
-            </svg>
-        </div>
         <div class="page">
-            <header class="lead"></header>
+            <header class="logo">
+                <svg
+                    class="logo__image"
+                    viewBox="0 0 278 70"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <g filter="url(#a)">
+                        <path
+                            d="M4.32 69h3.95v-4.318h2.187c3.316 0 5.54-1.953 5.54-5.085 0-3.097-2.167-5.142-5.398-5.142H4.32V69Zm3.95-7.386v-4.006H9.66c1.385 0 2.216.739 2.216 1.989 0 1.243-.83 2.017-2.216 2.017H8.27ZM17.445 69h3.95V64.2h1.363L25.315 69h4.29l-2.955-5.426c1.548-.746 2.471-2.16 2.471-4.176 0-3.097-2.166-4.943-5.397-4.943h-6.279V69Zm3.95-7.87v-3.522h1.391c1.385 0 2.216.54 2.216 1.79 0 1.243-.83 1.733-2.216 1.733h-1.392ZM34.583 69l.838-2.784h4.8L41.06 69h4.261l-4.8-14.545h-5.398L30.32 69h4.262Zm1.733-5.739 1.448-4.8h.114l1.449 4.8h-3.011ZM59.619 59.91c-.313-3.609-2.955-5.654-6.62-5.654-3.92 0-7.017 2.614-7.017 7.471 0 4.837 3.012 7.472 7.017 7.472 4.262 0 6.42-2.954 6.62-5.426l-4.006-.029c-.199 1.243-1.08 2.017-2.528 2.017-1.925 0-3.04-1.363-3.04-4.033 0-2.529 1.08-4.035 3.068-4.035 1.52 0 2.386.895 2.5 2.216h4.006ZM61.013 57.636h4.375V69h3.892V57.636h4.375v-3.181H61.013v3.181ZM79.09 54.455h-3.95V69h3.95V54.455ZM94.54 59.91c-.312-3.609-2.954-5.654-6.619-5.654-3.92 0-7.017 2.614-7.017 7.471 0 4.837 3.012 7.472 7.017 7.472 4.262 0 6.42-2.954 6.62-5.426l-4.006-.029c-.199 1.243-1.08 2.017-2.528 2.017-1.925 0-3.04-1.363-3.04-4.033 0-2.529 1.08-4.035 3.068-4.035 1.52 0 2.386.895 2.5 2.216h4.006ZM104.94 54.455v8.977c0 1.356-.973 2.33-2.33 2.33-1.356 0-2.329-.974-2.329-2.33v-8.977h-3.949v9.318c0 3.324 2.514 5.398 6.278 5.398 3.736 0 6.279-2.074 6.279-5.398v-9.318h-3.949ZM110.766 54.455V69h3.863v-8.466h.114l3.239 8.352h2.329l3.239-8.295h.113v8.41h3.864V54.454h-4.915l-3.38 8.238h-.171l-3.381-8.238h-4.914ZM137.161 69l.838-2.784h4.801l.838 2.784h4.262l-4.801-14.545h-5.398L132.9 69h4.261Zm1.733-5.739 1.449-4.8h.114l1.449 4.8h-3.012ZM149.301 69h3.949V64.2h1.363L157.17 69h4.29l-2.955-5.426c1.549-.746 2.472-2.16 2.472-4.176 0-3.097-2.166-4.943-5.398-4.943h-6.278V69Zm3.949-7.87v-3.522h1.392c1.385 0 2.216.54 2.216 1.79 0 1.243-.831 1.733-2.216 1.733h-1.392ZM162.262 57.636h4.375V69h3.892V57.636h4.375v-3.181h-12.642v3.181ZM189.821 59.256h3.991c-.305-2.92-2.954-5-6.392-5-3.92 0-7.102 2.699-7.102 7.5 0 4.602 2.884 7.443 7.131 7.443 3.807 0 6.534-2.33 6.534-6.307v-2.017h-6.449v2.813h2.642c-.035 1.264-.93 2.073-2.699 2.073-2.045 0-3.096-1.505-3.096-4.062 0-2.521 1.136-4.006 3.125-4.006 1.235 0 2.074.569 2.315 1.563ZM199.153 69l.838-2.784h4.802l.838 2.784h4.261l-4.801-14.545h-5.398L194.892 69h4.261Zm1.733-5.739 1.449-4.8h.114l1.449 4.8h-3.012ZM211.293 69h9.83v-3.182h-5.881V54.455h-3.949V69ZM222.719 69h9.829v-3.182h-5.88V54.455h-3.949V69ZM234.145 69h10.454v-3.182h-6.506v-2.5h5.995v-3.182h-5.995v-2.5h6.534v-3.181h-10.482V69ZM246.586 69h3.949V64.2h1.363L254.455 69h4.29l-2.955-5.426c1.549-.746 2.472-2.16 2.472-4.176 0-3.097-2.166-4.943-5.398-4.943h-6.278V69Zm3.949-7.87v-3.522h1.392c1.385 0 2.216.54 2.216 1.79 0 1.243-.831 1.733-2.216 1.733h-1.392ZM258.665 54.455l5.341 9.971V69h3.92v-4.574l5.341-9.971h-4.403l-2.841 5.909h-.114l-2.84-5.91h-4.404Z"
+                            fill="#fff"
+                        />
+                        <path
+                            d="M122 2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v28a2 2 0 0 1-2 2h-28a2 2 0 0 1-2-2V2Z"
+                            fill="#0278FE"
+                        />
+                        <path d="M154 6h-32v2h32V6Z" fill="#2A2C2F" />
+                        <path d="M135 6h-2v26h2V6Z" fill="#2A2C2F" />
+                    </g>
+                    <defs>
+                        <filter
+                            id="a"
+                            x="0"
+                            y="0"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                        >
+                            <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                                in="SourceAlpha"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                result="hardAlpha"
+                            />
+                            <feOffset dy="4" />
+                            <feGaussianBlur stdDeviation="2" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                            />
+                            <feBlend
+                                in2="BackgroundImageFix"
+                                result="effect1_dropShadow_16709_488"
+                            />
+                            <feBlend
+                                in="SourceGraphic"
+                                in2="effect1_dropShadow_16709_488"
+                                result="shape"
+                            />
+                        </filter>
+                    </defs>
+                </svg>
+            </header>
 
-            <main class="content"></main>
+            <main class="content">
+                <section class="lead">
+                    <h1 class="lead__title">De patria a patria</h1>
+                    <p class="lead__subtitle">
+                        Un viaje épico de Kentucky a Burundi pasando por Gales y
+                        Ucrania
+                    </p>
+                    <img
+                        class="lead__image"
+                        src="./images/lead__image.jpg"
+                        alt="Fotografía en blanco y negro de un balneario que es parte de esta exhibición de arte"
+                    />
+                </section>
 
-            <footer class="footer"></footer>
+                <section class="intro">
+                    <h2 class="intro__title">
+                        Conoce un poco mejor los lugares de los que proceden tus
+                        colegas en línea
+                    </h2>
+                    <h3 class="intro__quote">
+                        Todo ser humano es un artista, un ser de la libertad,
+                        llamado a participar en la transformación y reforma de
+                        las condiciones, el pensamiento y las estructuras que
+                        conforman e influyen en nuestras vidas.
+                    </h3>
+                    <h3 class="intro__quote-author">— Joseph Beuys</h3>
+                    <p class="intro__text">
+                        La ciudad de Practicum ha reunido a profesionales de
+                        diferentes rincones del mundo. Hoy, la Galería de Arte
+                        Practicum se enorgullece de presentar historias y
+                        fotografías de algunas de las personas que dedican su
+                        tiempo y esfuerzo a hacer que los futuros profesionales
+                        de la tecnología de esta ciudad se sientan como en casa.
+                        Cada uno de nosotros tiene una historia única sobre el
+                        lugar del que procede. No dudes en añadir a nuestra
+                        colección tu propia historia y una obra de arte visual
+                        dedicada a tu ciudad natal. No importa de dónde seas,
+                        nos alegra que seas nuestro vecino.
+                    </p>
+                </section>
+
+                <div class="photo-grid">
+                    <img
+                        src="images/proto-grid-image-01.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-02.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-03.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-04.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-05.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-06.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-07.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                    <img
+                        src="images/proto-grid-image-08.jpg"
+                        alt="Fotografía del lugar natal de uno de los miembros de esta exhibición"
+                        class="photo-grid__item"
+                    />
+                </div>
+
+                <div class="places">
+                    <section class="place">
+                        <h2 class="place__title">Kiev, Ucrania</h2>
+                        <img
+                            src="./images/places-image-kiev.jpg"
+                            alt="Fotografía de Kiev, ciudad natal de Natalia Dolgushina"
+                            class="place__image"
+                        />
+                        <a
+                            class="place__button"
+                            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                            >Compra esta obra de arte como NFT</a
+                        >
+                        <div class="place__artist">
+                            <span class="place__artist-title"
+                                >Artista<br
+                            /></span>
+                            <div>
+                                Natalia Dolgushina, productora de contenidos
+                            </div>
+                        </div>
+                        <div class="place__description">
+                            <p class="place__description-text">
+                                Kiev (o Kyiv), la capital de Ucrania, es una
+                                gran ciudad situada a orillas del río Dniéper.
+                                Por supuesto, nadie en su sano juicio se bañaría
+                                en el río, a menos que se haya criado aquí, en
+                                cuyo caso probablemente lo haya intentado en
+                                algún momento. Los veranos son calurosos aquí, y
+                                los inviernos con fuertes corrientes de aire,
+                                pero el otoño y la primavera son absolutamente
+                                increíbles.
+                            </p>
+                            <p class="place__description-text">
+                                La ciudad en sí es una mezcla de arquitectura
+                                prerrevolucionaria, de posguerra y soviética,
+                                toda ella salpicada de balcones modificados. Si
+                                te encuentras en la orilla derecha del Dniéper,
+                                el paisaje es difícil de atravesar para las
+                                personas en bicicleta y las que llevan tacones.
+                                Sin embargo, la orilla izquierda es considerada
+                                mucho menos interesante y prestigiosa, incluso
+                                por la gente que vive en las afueras de la
+                                derecha.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="place">
+                        <h2 class="place__title">Criccieth, Gales</h2>
+                        <img
+                            src="./images/places-image-criccieth.jpg"
+                            alt="Fotografía de Criccieth, ciudad natal de Steffan Warren y Kseniya Glagoleva"
+                            class="place__image"
+                        />
+                        <a
+                            class="place__button"
+                            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                            >Compra esta obra de arte como NFT</a
+                        >
+                        <div class="place__artist">
+                            <span class="place__artist-title"
+                                >Artistas<br
+                            /></span>
+                            <div>Steffan Warren, editor principal</div>
+                            <div>Kseniya Glagoleva, directora del proyecto</div>
+                        </div>
+                        <div class="place__description">
+                            <p class="place__description-text">
+                                La ruina medieval del castillo de Criccieth
+                                domina la ciudad desde una roca que se adentra
+                                en el mar. Se cree que fue construido por
+                                Llewelyn el Grande en el siglo XIII. Unos 900
+                                años después, la autodenominada *Perla de Gales
+                                a orillas de Snowdonia* se ha convertido en un
+                                popular destino turístico durante los meses de
+                                verano.
+                            </p>
+                            <p class="place__description-text">
+                                A poca distancia del castillo, se puede
+                                disfrutar del mejor helado del mundo en
+                                Cadwalader's, cuyo ingrediente secreto se
+                                rumorea que son las algas de la zona. Otro
+                                reclamo a la fama es el hecho de que Criccieth
+                                ganó el premio *Wales in Bloom* durante cinco
+                                años consecutivos por sus espectaculares
+                                exhibiciones florales alrededor de la ciudad.
+                                También fue el hogar de David Lloyd George, el
+                                único galés que ocupó el cargo de Primer
+                                Ministro del Reino Unido.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="place">
+                        <h2 class="place__title">Berea, Estados Unidos</h2>
+                        <img
+                            src="./images/places-image-berea.jpg"
+                            alt="Fotografía de Berea, ciudad natal de Travis Turner"
+                            class="place__image"
+                        />
+                        <a
+                            class="place__button"
+                            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                            >Compra esta obra de arte como NFT</a
+                        >
+                        <div class="place__artist">
+                            <span class="place__artist-title"
+                                >Artista<br
+                            /></span>
+                            <div>Steffan Warren, editor principal</div>
+                            <div>Kseniya Glagoleva, directora del proyecto</div>
+                        </div>
+                        <div class="place__description">
+                            <p class="place__description-text">
+                                Berea es una pequeña ciudad situada en la parte
+                                central de Kentucky. La ciudad está rodeada de
+                                hermosos bosques y campos. Es conocida como la
+                                capital del arte y la artesanía del estado, y
+                                los visitantes encontrarán muchas oportunidades
+                                de compra: tiendas con joyas hechas a mano,
+                                velas, artículos de madera, galerías, estudios
+                                de vidrio y mucho más. La ciudad celebra cada
+                                año un festival en el que se festeja el
+                                "spoonbread", un plato local hecho con pan de
+                                maíz y servido con una cuchara de madera.
+                            </p>
+                            <p class="place__description-text">
+                                Sin embargo, es probablemente más conocido por
+                                la universidad local Berea College se fundó en
+                                1855 y fue la primera universidad del sur de
+                                EE.UU. en estar integrada racialmente, así como
+                                la primera en ser coeducativa. De manera
+                                singular, no cobra matrícula: todos los
+                                estudiantes reciben una beca de matrícula
+                                completa.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="place">
+                        <h2 class="place__title">Muramvya, Burundi</h2>
+                        <img
+                            src="./images/places-image-muramvya.jpg"
+                            alt="Fotografía de Criccieth,
+                        ciudad natal de Steffan Warren y Kseniya Glagoleva"
+                            class="place__image"
+                        />
+                        <a
+                            class="place__button"
+                            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                            >Compra esta obra de arte como NFT</a
+                        >
+                        <div class="place__artist">
+                            <span class="place__artist-title"
+                                >Artista<br
+                            /></span>
+                            <div>Grevisse Kenguruka, editor técnico</div>
+                        </div>
+                        <div class="place__description">
+                            <p class="place__description-text">
+                                Muramvya es una de las 18 provincias de Burundi.
+                                En la época del reino, Muramvya era la capital
+                                real y en 2007, por su cultura y paisaje
+                                natural, fue incluida en la lista indicativa del
+                                Patrimonio Cultural Mundial de la UNESCO. Está
+                                situada en el centro de Burundi, entre las
+                                capitales política y económica del país.
+                            </p>
+                            <p class="place__description-text">
+                                El clima es más bien frío por la noche, pero
+                                durante el día, creerás que estás en el paraíso.
+                                A 2.665 metros sobre el nivel del mar, el monte
+                                Teza es uno de los lugares más fríos de la
+                                provincia. Pero esa brisa fresca permite el
+                                crecimiento de una de las mayores plantaciones
+                                de té y café del país, que constituyen la mayor
+                                parte de las exportaciones de Burundi.
+                            </p>
+                            <p class="place__description-text">
+                                El Parque Nacional de Kibira, una de las mayores
+                                reservas de fauna silvestre para simios, se
+                                extiende por cuatro provincias, incluida
+                                Muramvya. Este Parque Nacional se encuentra en
+                                el vértice de las hermosas montañas de la
+                                divisoria Congo-Nilo, que oscilan entre los
+                                1.550 y los 2.660 metros de altitud. Está lleno
+                                de hermosa vegetación, y es una fuente para los
+                                diversos ríos y arroyos que proporcionan agua en
+                                todo el país
+                            </p>
+                        </div>
+                    </section>
+                    <section class="place">
+                        <h2 class="place__title">Viña del Mar, Chile</h2>
+                        <img
+                            src="./images/places-image-vinadelmar.jpg"
+                            alt="Fotografía de Viña del Mar, ciudad natal de Bruno Larraín, creador de esta web"
+                            class="place__image"
+                        />
+                        <a
+                            class="place__button"
+                            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                            >Compra esta obra de arte como NFT</a
+                        >
+                        <div class="place__artist">
+                            <span class="place__artist-title"
+                                >Artista<br
+                            /></span>
+                            <div>Bruno Larraín, estudiante Practicum</div>
+                        </div>
+                        <div class="place__description">
+                            <p class="place__description-text">
+                                Viña del Mar es una de las capitales turísticas
+                                de Chile, la llamada "Ciudad Jardín" es conocida
+                                por ser un balneario relajante, tranquilo y
+                                bonito con grandes casonas, amplias areas verdes
+                                y kilometros de playas. A finales del siglo XIX
+                                creció como un espacio recreacional para la alta
+                                sociedad y hoy es conocida a nivel mundial por
+                                ser la sede del Festival de la Canción de Viña
+                                del Mar, el festival de música más longevo e
+                                relevante a nivel latinoaméricano por su alcance
+                                e historia.
+                            </p>
+                            <p class="place__description-text">
+                                Junto a Viña, está Valparaíso, una capital
+                                bohemia del país y patrimonio de la humanidad
+                                por sus coloridos cerros y bullante vida
+                                nocturna. Juntas son una parada obligada para
+                                todos los turistas que quieran escapar del ruido
+                                de Santiago y vivir una experiencia inolvidable
+                                entre cerros y playas.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="cover">
+                    <h3 class="cover__title">Visítanos</h3>
+                    <div class="cover__text">
+                        <div>Todo el año</div>
+                        <div>Galería de Arte de Practicum</div>
+                        <div>404, Avenida Tim Berners-Lee.</div>
+                    </div>
+                    <a
+                        class="cover__button"
+                        href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+                        >Comprar entradas</a
+                    >
+                </section>
+            </main>
+            <footer class="footer">© 2022. Bruno Larraín Escuti.</footer>
         </div>
     </body>
 </html>

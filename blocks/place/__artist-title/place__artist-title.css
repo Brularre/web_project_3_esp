@@ -1,0 +1,10 @@
+.place__artist-title {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 2;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 0.12em;
+    color: #aaaaaa;
+    text-transform: uppercase;
+}

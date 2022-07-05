@@ -1,0 +1,8 @@
+.place__artist {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+    align-self: end;
+    grid-area: place__artist;
+}
