@@ -6,3 +6,10 @@
     text-align: center;
     padding-bottom: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+    .cover__text {
+        font-size: 0.875rem;
+        line-height: 1.1;
+    }
+}

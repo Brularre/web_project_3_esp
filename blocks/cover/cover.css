@@ -1,6 +1,6 @@
 .cover {
     width: 90%;
-    height: 740px;
+    height: 80vh;
     margin: 90px auto;
     background: center / cover url(../../images/cover-background-image.jpg);
     background-color: rgba(42, 44, 47, 0.3);
@@ -10,3 +10,15 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1224px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+/* @media screen and (max-width: 480px) {
+    .cover {
+        height: 250px;
+    }
+} */

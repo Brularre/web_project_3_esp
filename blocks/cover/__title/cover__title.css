@@ -5,3 +5,10 @@
     line-height: 1.1;
     margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+    .cover__title {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+}

@@ -4,6 +4,11 @@
     background-color: #2a2c2f;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     color: white;
-    width: 1280px;
     margin: auto;
+}
+
+@media screen and (min-width: 1225px) {
+    .root {
+        width: 1280px;
+    }
 }
