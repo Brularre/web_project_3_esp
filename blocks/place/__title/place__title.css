@@ -4,6 +4,19 @@
     line-height: 1.1;
     margin: 0;
     text-align: left;
-    width: 90%;
+    max-width: 90%;
     grid-area: place__title;
+}
+
+@media screen and (max-width: 1224px) {
+    .place__title {
+        font-size: 2.625rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place__title {
+        font-size: 2rem;
+        padding: 0 10px;
+    }
 }

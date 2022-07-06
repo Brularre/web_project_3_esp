@@ -5,6 +5,7 @@
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     color: white;
     margin: auto;
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 1225px) {

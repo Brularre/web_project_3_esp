@@ -8,4 +8,17 @@
     max-height: 1rem;
     text-decoration: none;
     color: white;
+    transition: background-color 1s;
+}
+
+.place__button:hover {
+    cursor: pointer;
+    background-color: #0063d2;
+}
+
+@media screen and (max-width: 480px) {
+    .place__button {
+        font-size: 0.875rem;
+        margin: 0 10px;
+    }
 }

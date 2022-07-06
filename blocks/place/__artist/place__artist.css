@@ -6,3 +6,9 @@
     align-self: end;
     grid-area: place__artist;
 }
+
+@media screen and (max-width: 480px) {
+    .place__artist {
+        padding: 0 10px 10px 10px;
+    }
+}

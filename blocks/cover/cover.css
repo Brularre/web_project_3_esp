@@ -1,6 +1,6 @@
 .cover {
     width: 90%;
-    height: 80vh;
+    height: 740px;
     margin: 90px auto;
     background: center / cover url(../../images/cover-background-image.jpg);
     background-color: rgba(42, 44, 47, 0.3);
@@ -9,6 +9,11 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s;
+}
+
+.cover:hover {
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1224px) {
@@ -17,8 +22,9 @@
     }
 }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .cover {
         height: 250px;
+        margin-top: 4rem;
     }
-} */
+}

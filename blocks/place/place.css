@@ -10,3 +10,24 @@
     gap: 48px 40px;
     grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (max-width: 1224px) {
+    .place {
+        width: 95%;
+        padding-top: 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place {
+        grid-template:
+            "place__title"
+            "place__artist"
+            "place__image"
+            "place__description"
+            "place__button";
+        gap: 10px;
+        width: 100%;
+        padding-top: 2rem;
+    }
+}

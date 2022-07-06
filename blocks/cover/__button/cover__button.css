@@ -7,4 +7,10 @@
     max-width: fit-content;
     text-decoration: none;
     color: white;
+    transition: background-color 1s;
+}
+
+.cover__button:hover {
+    cursor: pointer;
+    background-color: #0063d2;
 }
