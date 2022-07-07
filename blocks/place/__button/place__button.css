@@ -5,7 +5,7 @@
     background-color: #0278fe;
     border-radius: 0.3em;
     max-width: fit-content;
-    max-height: 1rem;
+    height: min-content;
     text-decoration: none;
     color: white;
     transition: background-color 1s;
